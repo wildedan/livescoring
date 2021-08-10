@@ -1,0 +1,33 @@
+<Task type="AAT" task_scored="0" aat_min_time="10800" start_max_speed="60" start_max_height="0" start_max_height_ref="MSL" finish_min_height="0" finish_min_height_ref="AGL" fai_finish="0" min_points="2" max_points="13" homogeneous_tps="0" is_closed="0">
+  <Point type="Start">
+    <Waypoint name="Free turnpoint" id="0" comment="" altitude="-999.0">
+      <Location longitude="10.9502833" latitude="49.8302833"/>
+    </Waypoint>
+    <ObservationZone type="Line" length="20000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="129MainbergKrch" id="0" comment="" altitude="0.0">
+      <Location longitude="10.2916667" latitude="50.0538333"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="20000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="064FranknbrgSch" id="0" comment="" altitude="0.0">
+      <Location longitude="10.26525" latitude="49.60775"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="15000.0"/>
+  </Point>
+  <Point type="Area">
+    <Waypoint name="049BurgwindhmTv" id="0" comment="" altitude="0.0">
+      <Location longitude="10.6133333" latitude="49.7966667"/>
+    </Waypoint>
+    <ObservationZone type="Sector" radius="15000.0" start_radial="270.0" end_radial="0.0"/>
+  </Point>
+  <Point type="Finish">
+    <Waypoint name="001ZK_BurgFerstn" id="0" comment="" altitude="507.0">
+      <Location longitude="11.13445" latitude="49.7933333"/>
+    </Waypoint>
+    <ObservationZone type="Cylinder" radius="3000.0"/>
+  </Point>
+</Task>
+
